@@ -1,9 +1,10 @@
 /* Mobile first queries */
+
 body {
-margin: 0%;
-padding: 0%;
-width: 100%;
-height: 100%;
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+  height: 100%;
 }
 
 header {
@@ -56,7 +57,6 @@ nav ul li h4 a {
   color: brown;
 }
 
-
 nav ul li h4 a:hover {
   color: black;
 }
@@ -78,7 +78,7 @@ main {
   align-items: center;
   width: 100%;
   height: 100%;
-  background-color:lemonchiffon;
+  background-color: lemonchiffon;
 }
 
 .who {
@@ -89,16 +89,15 @@ main {
   font-family: 'Fredericka the Great', cursive;
 }
 
-
 #preface img {
   margin: 5%;
   border-radius: 10%;
-  width:100px;
+  width: 100px;
   height: 100px;
 }
 
 #preface p {
-  width:90vw;
+  width: 90vw;
   font-size: 30px;
   font-family: 'Dawning of a New Day', cursive;
 }
@@ -106,20 +105,19 @@ main {
 #certs {
   display: flex;
   flex-flow: column nowrap;
-  align-content:center;
+  align-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
   background-color: greenyellow;
 }
 
-
 #certs h2 {
   font-family: 'Grand Hotel', cursive;
   font-size: 50px;
 }
 
-#certs li{
+#certs li {
   font-family: 'Clicker Script', cursive;
   font-size: 30px;
 }
@@ -130,7 +128,7 @@ main {
   align-content: center;
   align-items: center;
   height: 100%;
-  width: 100%; 
+  width: 100%;
   background-color: cyan;
 }
 
@@ -141,7 +139,6 @@ main {
   align-items: center;
 }
 
-
 #exp h2 {
   font-family: 'Grand Hotel', cursive;
   font-size: 50px;
@@ -151,13 +148,13 @@ main {
   padding: 5%;
 }
 
-#exp article{
+#exp article {
   margin-bottom: 5%;
   font-family: 'Clicker Script', cursive;
   font-size: 25px;
 }
 
-tr, th , td {
+tr, th, td {
   margin-right: 20%;
   padding: 1%;
   border-radius: 3%;
@@ -166,7 +163,7 @@ tr, th , td {
 }
 
 thead td {
-  text-align:center;
+  text-align: center;
   font-family: 'Clicker Script', cursive;
   font-weight: bold;
   background-color: none;
@@ -181,19 +178,19 @@ thead td {
   width: 100%;
 }
 
-.row1 > .col1 {
-  width:45%;
+.row1>.col1 {
+  width: 45%;
   height: 60vh;
   border-radius: 3%;
   background-color: lightpink;
 }
 
-.row1 > .col3 {
-  width:45%;
+.row1>.col3 {
+  width: 45%;
   height: 60vh;
 }
 
-.row1 > .col2 {
+.row1>.col2 {
   width: 1%;
   height: 60vh;
   background-color: red;
@@ -201,7 +198,7 @@ thead td {
 
 .cir {
   position: relative;
-  z-index:0;
+  z-index: 0;
   left: -7px;
   color: black;
 }
@@ -215,20 +212,20 @@ thead td {
   width: 100%;
 }
 
-.row2 > .col1 {
-  width:45%;
+.row2>.col1 {
+  width: 45%;
   height: 60vh;
   text-align: right;
 }
 
-.row2 > .col3 {
-  width:45%;
+.row2>.col3 {
+  width: 45%;
   height: 60vh;
   border-radius: 3%;
   background-color: lightpink;
 }
 
-.row2 > .col2 {
+.row2>.col2 {
   width: 1%;
   height: 60vh;
   background-color: red;
@@ -240,7 +237,7 @@ thead td {
   align-content: space-around;
   align-items: center;
   height: 100%;
-  width: 100%; 
+  width: 100%;
   background-color: palegoldenrod;
 }
 
@@ -253,44 +250,44 @@ thead td {
   margin-left: 5%;
 }
 
-#edu article{
+#edu article {
   font-family: 'Clicker Script', cursive;
   font-size: 30px;
   margin-bottom: 5%;
 }
 
-#edu .row1 > .col1 {
-  width:45%;
+#edu .row1>.col1 {
+  width: 45%;
   height: 50vh;
   border-radius: 3%;
   background-color: lightyellow;
 }
 
-#edu .row1 > .col3 {
-  width:45%;
+#edu .row1>.col3 {
+  width: 45%;
   height: 50vh;
 }
 
-#edu .row1 > .col2 {
+#edu .row1>.col2 {
   width: 1%;
   height: 50vh;
   background-color: red;
 }
 
-#edu .row2 > .col1 {
-  width:45%;
+#edu .row2>.col1 {
+  width: 45%;
   height: 50vh;
   text-align: right;
 }
 
-#edu .row2 > .col3 {
-  width:45%;
+#edu .row2>.col3 {
+  width: 45%;
   height: 50vh;
   border-radius: 3%;
   background-color: lightyellow;
 }
 
-#edu .row2 > .col2 {
+#edu .row2>.col2 {
   width: 1%;
   height: 50vh;
   background-color: red;
@@ -302,7 +299,7 @@ thead td {
   align-content: space-around;
   align-items: center;
   height: 100%;
-  width: 100%; 
+  width: 100%;
   background-color: skyblue;
 }
 
@@ -311,7 +308,7 @@ thead td {
   font-size: 50px;
 }
 
-#social article{
+#social article {
   font-family: 'Clicker Script', cursive;
   font-size: 20px;
   margin: 3%;
@@ -322,1330 +319,33 @@ thead td {
   height: 70px;
 }
 
-
 footer {
   background-color: blue;
 }
 
 /* Larger than mobile */
+
 @media (min-width: 400px) {
-
-  body {
-    margin: 0%;
-    padding:0%;
-    width: 100%;
-    height: 100%;
-    }
-    
-    header {
-      display: flex;
-      flex-flow: column nowrap;
-      align-content: center;
-      align-items: center;
-      width: 100%;
-    }
-    
-    svg {
-      width: 50px;
-      height: 50px;
-    }
-    
-    svg:hover {
-      fill: black;
-    }
-    
-    nav {
-      position: fixed;
-      overflow: hidden;
-      top: 0%;
-      z-index: 1;
-      width: 100%;
-      background-color: #fff;
-    }
-    
-    nav ul {
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: center;
-      align-items: center;
-      padding: 0;
-    }
-    
-    nav ul li {
-      display: inline-flex;
-      margin-right: 5px;
-    }
-    
-    nav ul li h4 {
-      margin: 0.7em;
-    }
-    
-    nav ul li h4 a {
-      text-decoration: none;
-      font-family: "Monofett", cursive;
-      font-size: 35px;
-      color: brown;
-    }
-    
-    
-    nav ul li h4 a:hover {
-      color: black;
-    }
-    
-    main {
-      display: flex;
-      flex-flow: column nowrap;
-      align-content: space-around;
-      align-items: center;
-      margin-top: 50%;
-      width: 100%;
-      background-color: #fff;
-    }
-    
-    #preface {
-      display: flex;
-      flex-flow: column nowrap;
-      align-content: center;
-      align-items: center;
-      height: 100%;
-      width: 100%;
-      background-color:lemonchiffon;
-    }
-    
-    .who {
-      display: flex;
-      flex-flow: row nowrap;
-      justify-content: space-around;
-      align-items: center;
-      width: 100%;
-      font-family: 'Fredericka the Great', cursive;
-    }
-
-    
-    #preface img {
-      width:100px;
-      height: 100px;
-      margin: 5%;
-      border-radius: 10%;
-    }    
-    #preface p {
-      width:90vw;
-      font-size: 30px;
-      font-family: 'Dawning of a New Day', cursive;
-    }
-    
-    #certs {
-      display: flex;
-      flex-flow: column nowrap;
-      align-content:center;
-      align-items: center;
-      width: 100%;
-      height: 100%;
-      background-color: greenyellow;
-    }
-    
-    
-    #certs h2 {
-      font-family: 'Grand Hotel', cursive;
-      font-size: 50px;
-    }
-    
-    #certs li{
-      font-family: 'Clicker Script', cursive;
-      font-size: 30px;
-    }
-    
-    #exp {
-      display: flex;
-      flex-flow: column nowrap;
-      align-content: center;
-      align-items: center;
-      height: 100%;
-      width: 100%; 
-      background-color: cyan;
-    }
-    
-    .articles {
-      display: flex;
-      flex-flow: column nowrap;
-      align-content: center;
-      align-items: center;
-    }
-    
-    
-    #exp h2 {
-      font-family: 'Grand Hotel', cursive;
-      font-size: 50px;
-    }
-    
-    #exp h3 {
-      padding: 5%;
-    }
-    
-    #exp article{
-      margin-bottom: 5%;
-      font-family: 'Clicker Script', cursive;
-      font-size: 30px;
-    }
-    
-    tr, th , td {
-      margin-right: 20%;
-      padding: 1%;
-      border-radius: 3%;
-      font-family: 'Wire One', sans-serif;
-      background-color: yellow;
-    }
-    
-    thead td {
-      text-align:center;
-      font-family: 'Clicker Script', cursive;
-      font-weight: bold;
-      background-color: none;
-    }
-    
-    .row1 {
-      display: flex;
-      flex-flow: row nowrap;
-      justify-content: space-evenly;
-      align-items: center;
-      word-wrap: break-word;
-      width: 100%;
-    }
-    
-    .row1 > .col1 {
-      width:45%;
-      height: 60vh;
-      border-radius: 3%;
-      background-color: lightpink;
-    }
-    
-    .row1 > .col3 {
-      width:45%;
-      height: 60vh;
-    }
-    
-    .row1 > .col2 {
-      width: 1%;
-      height: 60vh;
-      background-color: red;
-    }
-    
-    .cir {
-      position: relative;
-      z-index:0;
-      left: -7px;
-      color: black;
-    }
-    
-    .row2 {
-      display: flex;
-      flex-flow: row nowrap;
-      justify-content: space-evenly;
-      align-items: center;
-      word-wrap: break-word;
-      width: 100%;
-    }
-    
-    .row2 > .col1 {
-      width:45%;
-      height: 60vh;
-      text-align: right;
-    }
-    
-    .row2 > .col3 {
-      width:45%;
-      height: 60vh;
-      border-radius: 3%;
-      background-color: lightpink;
-    }
-    
-    .row2 > .col2 {
-      width: 1%;
-      height: 60vh;
-      background-color: red;
-    }
-    
-    #edu {
-      display: flex;
-      flex-flow: column nowrap;
-      align-content: space-around;
-      align-items: center;
-      height: 100%;
-      width: 100%; 
-      background-color: palegoldenrod;
-    }
-    
-    #edu h2 {
-      font-family: 'Grand Hotel', cursive;
-      font-size: 50px;
-    }
-    
-    #edu h3 {
-      margin-left: 5%;
-    }
-    
-    #edu article{
-      font-family: 'Clicker Script', cursive;
-      font-size: 30px;
-      margin-bottom: 5%;
-    }
-    
-    #edu .row1 > .col1 {
-      width:45%;
-      height: 30vh;
-      border-radius: 3%;
-      background-color: lightyellow;
-    }
-    
-    #edu .row1 > .col3 {
-      width:45%;
-      height: 30vh;
-    }
-    
-    #edu .row1 > .col2 {
-      width: 1%;
-      height: 30vh;
-      background-color: red;
-    }
-    
-    #edu .row2 > .col1 {
-      width:45%;
-      height: 30vh;
-      text-align: right;
-    }
-    
-    #edu .row2 > .col3 {
-      width:45%;
-      height: 30vh;
-      border-radius: 3%;
-      background-color: lightyellow;
-    }
-    
-    #edu .row2 > .col2 {
-      width: 1%;
-      height: 30vh;
-      background-color: red;
-    }
-    
-    #social {
-      display: flex;
-      flex-flow: column nowrap;
-      align-content: space-around;
-      align-items: center;
-      height: 100%;
-      width: 100%; 
-      background-color: skyblue;
-    }
-    
-    #social h2 {
-      font-family: 'Grand Hotel', cursive;
-      font-size: 50px;
-    }
-    
-    #social article{
-      font-family: 'Clicker Script', cursive;
-      font-size: 20px;
-      margin: 3%;
-    }
-    
-    #social img {
-      width: 70px;
-      height: 70px;
-    }
-    
-    
-    footer {
-      background-color: blue;
-    }
-}
-
-/* Larger than phablet */
-@media (min-width: 550px) {
-  body {
-    margin: 0%;
-    padding:0%;
-    width: 100%;
-    height: 100%;
-    }
-    
-    header {
-      display: flex;
-      flex-flow: column nowrap;
-      align-content: center;
-      align-items: center;
-      width: 100%;
-    }
-    
-    svg {
-      width: 50px;
-      height: 50px;
-    }
-    
-    svg:hover {
-      fill: black;
-    }
-    
-    nav {
-      position: fixed;
-      overflow: hidden;
-      top: 0%;
-      z-index: 1;
-      width: 100%;
-      background-color: #fff;
-    }
-    
-    nav ul {
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: center;
-      align-items: center;
-      padding: 0;
-    }
-    
-    nav ul li {
-      display: inline-flex;
-      margin-right: 5px;
-    }
-    
-    nav ul li h4 {
-      margin: 0.7em;
-    }
-    
-    nav ul li h4 a {
-      text-decoration: none;
-      font-family: "Monofett", cursive;
-      font-size: 30px;
-      color: brown;
-    }
-    
-    
-    nav ul li h4 a:hover {
-      color: black;
-    }
-    
-    main {
-      display: flex;
-      flex-flow: column nowrap;
-      align-content: space-around;
-      align-items: center;
-      margin-top: 20%;
-      width: 100%;
-      background-color: #fff;
-    }
-    
-    #preface {
-      display: flex;
-      flex-flow: column nowrap;
-      align-content: center;
-      align-items: center;
-      height: 100%;
-      width: 100%;
-      background-color:lemonchiffon;
-    }
-    
-    .who {
-      display: flex;
-      flex-flow: row nowrap;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      font-family: 'Fredericka the Great', cursive;
-    }
-
-    .who h1 {
-      font-size: 40px;
-    }
-    
-    #preface img {
-      width:100px;
-      height: 100px;
-      margin: 5%;
-      border-radius: 10%;
-    }
-    
-    #preface p {
-      width:100%;
-      font-size: 40px;
-      font-family: 'Dawning of a New Day', cursive;
-    }
-    
-    #certs {
-      display: flex;
-      flex-flow: column nowrap;
-      align-content:center;
-      align-items: center;
-      width: 100%;
-      height: 100%;
-      background-color: greenyellow;
-    }
-    
-    
-    #certs h2 {
-      font-family: 'Grand Hotel', cursive;
-      font-size: 50px;
-    }
-    
-    #certs li{
-      font-family: 'Clicker Script', cursive;
-      font-size: 40px;
-    }
-    
-    #exp {
-      display: flex;
-      flex-flow: column nowrap;
-      align-content: center;
-      align-items: center;
-      height: 100%;
-      width: 100%; 
-      background-color: cyan;
-    }
-    
-    .articles {
-      display: flex;
-      flex-flow: column nowrap;
-      align-content: center;
-      align-items: center;
-    }
-    
-    
-    #exp h2 {
-      font-family: 'Grand Hotel', cursive;
-      font-size: 50px;
-    }
-    
-    #exp h3 {
-      padding: 5%;
-    }
-    
-    #exp article{
-      margin-bottom: 5%;
-      font-family: 'Clicker Script', cursive;
-      font-size: 40px;
-    }
-    
-    tr, th , td {
-      margin-right: 20%;
-      padding: 1%;
-      border-radius: 3%;
-      font-family: 'Wire One', sans-serif;
-      background-color: yellow;
-    }
-    
-    thead td {
-      text-align:center;
-      font-family: 'Clicker Script', cursive;
-      font-weight: bold;
-      background-color: none;
-    }
-    
-    .row1 {
-      display: flex;
-      flex-flow: row nowrap;
-      justify-content: space-evenly;
-      align-items: center;
-      word-wrap: break-word;
-      width: 100%;
-    }
-    
-    .row1 > .col1 {
-      width:45%;
-      height: 80vh;
-      border-radius: 3%;
-      background-color: lightpink;
-    }
-    
-    .row1 > .col3 {
-      width:45%;
-      height: 80vh;
-    }
-    
-    .row1 > .col2 {
-      width: 1%;
-      height: 80vh;
-      background-color: red;
-    }
-    
-    .cir {
-      position: relative;
-      z-index:0;
-      left: -4px;
-      color: black;
-    }
-    
-    .row2 {
-      display: flex;
-      flex-flow: row nowrap;
-      justify-content: space-evenly;
-      align-items: center;
-      word-wrap: break-word;
-      width: 100%;
-    }
-    
-    .row2 > .col1 {
-      width:45%;
-      height: 80vh;
-      text-align: right;
-    }
-    
-    .row2 > .col3 {
-      width:45%;
-      height: 80vh;
-      border-radius: 3%;
-      background-color: lightpink;
-    }
-    
-    .row2 > .col2 {
-      width: 1%;
-      height: 80vh;
-      background-color: red;
-    }
-    
-    #edu {
-      display: flex;
-      flex-flow: column nowrap;
-      align-content: space-around;
-      align-items: center;
-      height: 100%;
-      width: 100%; 
-      background-color: palegoldenrod;
-    }
-    
-    #edu h2 {
-      font-family: 'Grand Hotel', cursive;
-      font-size: 50px;
-    }
-    
-    #edu h3 {
-      margin-left: 5%;
-    }
-    
-    #edu article{
-      font-family: 'Clicker Script', cursive;
-      font-size: 30px;
-      margin-bottom: 5%;
-    }
-    
-    #edu .row1 > .col1 {
-      width:45%;
-      height: 35vh;
-      border-radius: 3%;
-      background-color: lightyellow;
-    }
-    
-    #edu .row1 > .col3 {
-      width:45%;
-      height: 35vh;
-    }
-    
-    #edu .row1 > .col2 {
-      width: 1%;
-      height: 35vh;
-      background-color: red;
-    }
-    
-    #edu .row2 > .col1 {
-      width:45%;
-      height: 35vh;
-      text-align: right;
-    }
-    
-    #edu .row2 > .col3 {
-      width:45%;
-      height: 35vh;
-      border-radius: 3%;
-      background-color: lightyellow;
-    }
-    
-    #edu .row2 > .col2 {
-      width: 1%;
-      height: 35vh;
-      background-color: red;
-    }
-    
-    #social {
-      display: flex;
-      flex-flow: column nowrap;
-      align-content: space-around;
-      align-items: center;
-      height: 100%;
-      width: 100%; 
-      background-color: skyblue;
-    }
-    
-    #social h2 {
-      font-family: 'Grand Hotel', cursive;
-      font-size: 50px;
-    }
-    
-    #social article{
-      font-family: 'Clicker Script', cursive;
-      font-size: 20px;
-      margin: 3%;
-    }
-    
-    #social img {
-      width: 100px;
-      height: 100px;
-    }
-    
-    
-    footer {
-      background-color: blue;
-    }
-}
-
-/* Larger than tablet */
-@media (min-width: 750px) {
   body {
     margin: 0%;
     padding: 0%;
     width: 100%;
     height: 100%;
-  }    
-
-  header {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-evenly;
   }
-
-svg {
-  width: 70px;
-  height: 70px;
-}
-
-svg:hover {
-  fill: black;
-}
-
-nav {
-  position: fixed;
-  overflow: hidden;
-  top: 0%;
-  z-index: 1;
-  width: 100%;
-  background-color: #fff;
-}
-
-nav ul {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline-flex;
-}
-
-
-nav ul li h4 a {
-  text-decoration: none;
-  font-family: "Monofett", cursive;
-  font-size: 40px;
-  color: brown;
-}
-
-
-nav ul li h4 a:hover {
-  color: #000;
-}
-
-main {
-  display: flex;
-  flex-flow: column nowrap;
-  align-content: space-between;
-  align-items: center;
-  margin-top: 20%;
-  width: 100%;
-  background-color:#fff;
-
-}
-
-#preface {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items:center;
-  height: 100%;
-  width: 100%; 
-  background-color:lemonchiffon;
-}
-
-.who {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  font-size: 40px;
-  font-family: 'Fredericka the Great', cursive;
-
-}
-
-
-#preface img {
-  margin: 5%;
-  border-radius: 10%;
-  width:200px;
-  height: 200px;
-}
-
-#preface p {
-  width:100%;
-  font-size: 60px;
-  font-family: 'Dawning of a New Day', cursive;
-}
-
-#certs {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-around;
-  align-items: center;
-  height: 100%;
-  width: 100%; 
-  background-color: greenyellow;
-}
-
-
-#certs h2 {
-  font-family: 'Grand Hotel', cursive;
-  font-size: 60px;
-}
-
-#certs li{
-  font-family: 'Clicker Script', cursive;
-  font-size: 50px;
-}
-
-#exp {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: space-around;
-  align-items: center;
-  height: 100%;
-  width: 100%; 
-  background-color: cyan;
-}
-
-
-#exp h2 {
-  font-family: 'Grand Hotel', cursive;
-  font-size: 50px;
-}
-
-#exp article{
-  margin-bottom: 5%;
-  font-family: 'Clicker Script', cursive;
-  font-size: 40px;
-}
-
-tr, th , td {
-  margin-right: 20%;
-  padding: 1%;
-  border-radius: 3%;
-  font-family: 'Wire One', sans-serif;
-  background-color: yellow;
-}
-
-thead td {
-  text-align:center;
-  font-family: 'Clicker Script', cursive;
-  font-weight: bold;
-  background-color: none;
-}
-
-.row1 {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-evenly;
-  align-items: center;
-  word-wrap: break-word;
-  width: 80vw;
-}
-
-.row1 > .col1 {
-  width:45%;
-  height: 80vh;
-  border-radius: 3%;
-  background-color: lightpink;
-}
-
-.row1 > .col3 {
-  width:45%;
-  height: 80vh;
-}
-
-.row1 > .col2 {
-  width: 1%;
-  height: 80vh;
-  background-color: red;
-}
-
-.cir {
-  position: relative;
-  z-index:0;
-  left: -7px;
-  color: black;
-}
-
-.row2 {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-evenly;
-  align-items: center;
-  word-wrap: break-word;
-  width: 80vw;
-}
-
-.row2 > .col1 {
-  width:45%;
-  height: 80vh;
-  text-align: right;
-}
-
-.row2 > .col3 {
-  width:45%;
-  height: 80vh;
-  border-radius: 3%;
-  background-color: lightpink;
-}
-
-.row2 > .col2 {
-  width: 1%;
-  height: 80vh;
-  background-color: red;
-}
-
-#edu {
-  display: flex;
-  flex-flow: column nowrap;
-  align-content: space-around;
-  align-items: center;
-  height: 100%;
-  width: 100%; 
-  background-color: palegoldenrod;
-}
-
-#edu h2 {
-  font-family: 'Grand Hotel', cursive;
-  font-size: 50px;
-}
-
-#edu article{
-  font-family: 'Clicker Script', cursive;
-  font-size: 40px;
-  margin-bottom: 5%;
-}
-
-#edu .row1 > .col1 {
-  width:45%;
-  height: 50vh;
-  border-radius: 3%;
-  background-color: lightyellow;
-}
-
-#edu .row1 > .col3 {
-  width:45%;
-  height: 50vh;
-}
-
-#edu .row1 > .col2 {
-  width: 1%;
-  height: 50vh;
-  background-color: red;
-}
-
-#edu .row2 > .col1 {
-  width:45%;
-  height: 50vh;
-  text-align: right;
-}
-
-#edu .row2 > .col3 {
-  width:45%;
-  height: 50vh;
-  border-radius: 3%;
-  background-color: lightyellow;
-}
-
-#edu .row2 > .col2 {
-  width: 1%;
-  height: 50vh;
-  background-color: red;
-}
-
-#social {
-  display: flex;
-  flex-flow: column nowrap;
-  align-content: space-around;
-  align-items: center;
-  height: 100%;
-  width: 100%; 
-  background-color: skyblue;
-}
-
-#social h2 {
-  font-family: 'Grand Hotel', cursive;
-  font-size: 60px;
-}
-
-#social article{
-  font-family: 'Clicker Script', cursive;
-  font-size: 40px;
-  margin: 3%;
-}
-
-#social img {
-  width: 150px;
-  height: 150px;
-}
-
-footer {
-  background-color: blue;
-}
-}
-
-/* Larger than desktop */
-@media (min-width: 1000px) {
-  body {
-    margin: 0%;
-    padding: 0%;
-    width: 100%;
-    height: 100%;
-  }    
-
   header {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-evenly;
-  }
-
-svg {
-  width: 70px;
-  height: 70px;
-}
-
-svg:hover {
-  fill: black;
-}
-
-nav {
-  position: fixed;
-  overflow: hidden;
-  top: 0%;
-  z-index: 1;
-  width: 100%;
-  background-color: #fff;
-}
-
-nav ul {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline-flex;
-}
-
-
-nav ul li h4 a {
-  text-decoration: none;
-  font-family: "Monofett", cursive;
-  font-size: 35px;
-  color: brown;
-}
-
-
-nav ul li h4 a:hover {
-  color: #000;
-}
-
-main {
-  display: flex;
-  flex-flow: column nowrap;
-  align-content: space-around;
-  align-items: center;
-  margin-top: 8%;
-  width: 100%;
-  background-color:#fff;
-}
-
-#preface {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  align-items:center;
-  height: 100%;
-  width: 100%; 
-  background-color:lemonchiffon;
-}
-
-.who {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
-  align-items: center;
-  width: 50%;
-  font-family: 'Fredericka the Great', cursive;
-}
-
-.who h1 {
-  font-size: 30px;
-}
-
-.pitch {
-  width: 60%;
-}
-
-#preface img {
-  margin: 5%;
-  border-radius: 10%;
-  width:100px;
-  height: 100px;
-}
-
-#preface p {
-  width:100%;
-  font-size: 40px;
-  font-family: 'Dawning of a New Day', cursive;
-}
-
-#certs {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
-  align-items: center;
-  height: 100%;
-  width: 100%; 
-  background-color: greenyellow;
-}
-
-
-#certs h2 {
-  font-family: 'Grand Hotel', cursive;
-  font-size: 50px;
-}
-
-#certs li{
-  font-family: 'Clicker Script', cursive;
-  font-size: 40px;
-}
-
-#exp {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
-  align-items: center;
-  height: 100%;
-  width: 100%; 
-  background-color: cyan;
-}
-
-
-#exp h2 {
-  font-family: 'Grand Hotel', cursive;
-  font-size: 50px;
-}
-
-#exp article{
-  margin-bottom: 5%;
-  font-family: 'Clicker Script', cursive;
-  font-size: 40px;
-}
-
-tr, th , td {
-  margin-right: 20%;
-  padding: 1%;
-  border-radius: 3%;
-  font-family: 'Wire One', sans-serif;
-  background-color: yellow;
-}
-
-thead td {
-  text-align:center;
-  font-family: 'Clicker Script', cursive;
-  font-weight: bold;
-  background-color: none;
-}
-
-.row1 {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-evenly;
-  align-items: center;
-  word-wrap: break-word;
-  width: 60vw;
-}
-
-.row1 > .col1 {
-  width:45%;
-  height: 80vh;
-  border-radius: 3%;
-  background-color: lightpink;
-}
-
-.row1 > .col3 {
-  width:45%;
-  height: 80vh;
-}
-
-.row1 > .col2 {
-  width: 1%;
-  height: 80vh;
-  background-color: red;
-}
-
-.cir {
-  position: relative;
-  z-index:0;
-  left: -7px;
-  color: black;
-}
-
-.row2 {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-evenly;
-  align-items: center;
-  word-wrap: break-word;
-  width: 60vw;
-}
-
-.row2 > .col1 {
-  width:45%;
-  height: 80vh;
-  text-align: right;
-}
-
-.row2 > .col3 {
-  width:45%;
-  height: 80vh;
-  border-radius: 3%;
-  background-color: lightpink;
-}
-
-.row2 > .col2 {
-  width: 1%;
-  height: 80vh;
-  background-color: red;
-}
-
-#edu {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
-  align-items: center;
-  height: 100%;
-  width: 100%; 
-  background-color: palegoldenrod;
-}
-
-#edu h2 {
-  font-family: 'Grand Hotel', cursive;
-  font-size: 50px;
-}
-
-#edu article{
-  font-family: 'Clicker Script', cursive;
-  font-size: 40px;
-  margin-bottom: 5%;
-}
-
-#edu .row1 > .col1 {
-  width:45%;
-  height: 40vh;
-  border-radius: 3%;
-  background-color: lightyellow;
-}
-
-#edu .row1 > .col3 {
-  width:45%;
-  height: 40vh;
-}
-
-#edu .row1 > .col2 {
-  width: 1%;
-  height: 40vh;
-  background-color: red;
-}
-
-#edu .row2 > .col1 {
-  width:45%;
-  height: 40vh;
-  text-align: right;
-}
-
-#edu .row2 > .col3 {
-  width:45%;
-  height: 40vh;
-  border-radius: 3%;
-  background-color: lightyellow;
-}
-
-#edu .row2 > .col2 {
-  width: 1%;
-  height: 40vh;
-  background-color: red;
-}
-
-#social {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-around;
-  align-items: center;
-  height: 100%;
-  width: 100%; 
-  background-color: skyblue;
-}
-
-#social h2 {
-  font-family: 'Grand Hotel', cursive;
-  font-size: 50px;
-}
-
-#social article{
-  font-family: 'Clicker Script', cursive;
-  font-size: 40px;
-  margin: 3%;
-}
-
-#social img {
-  width: 150px;
-  height: 150px;
-}
-
-footer {
-  background-color: blue;
-}
-}
-
-/* Larger than Desktop HD */
-@media (min-width: 1200px) {
-    body {
-      margin: 0%;
-      padding: 0%;
-      width: 100%;
-      height: 100%;
-    }    
-
-    header {
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-evenly;
-    }
-
-  svg {
-    width: 70px;
-    height: 70px;
+    flex-flow: column nowrap;
+    align-content: center;
+    align-items: center;
+    width: 100%;
   }
-
+  svg {
+    width: 50px;
+    height: 50px;
+  }
   svg:hover {
     fill: black;
   }
-
   nav {
     position: fixed;
     overflow: hidden;
@@ -1654,31 +354,847 @@ footer {
     width: 100%;
     background-color: #fff;
   }
-
   nav ul {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     padding: 0;
   }
-
   nav ul li {
     display: inline-flex;
+    margin-right: 5px;
   }
-
-
+  nav ul li h4 {
+    margin: 0.7em;
+  }
   nav ul li h4 a {
     text-decoration: none;
     font-family: "Monofett", cursive;
     font-size: 35px;
     color: brown;
   }
+  nav ul li h4 a:hover {
+    color: black;
+  }
+  main {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: space-around;
+    align-items: center;
+    margin-top: 50%;
+    width: 100%;
+    background-color: #fff;
+  }
+  #preface {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: lemonchiffon;
+  }
+  .who {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    font-family: 'Fredericka the Great', cursive;
+  }
+  #preface img {
+    width: 100px;
+    height: 100px;
+    margin: 5%;
+    border-radius: 10%;
+  }
+  #preface p {
+    width: 90vw;
+    font-size: 30px;
+    font-family: 'Dawning of a New Day', cursive;
+  }
+  #certs {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: greenyellow;
+  }
+  #certs h2 {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 50px;
+  }
+  #certs li {
+    font-family: 'Clicker Script', cursive;
+    font-size: 30px;
+  }
+  #exp {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: cyan;
+  }
+  .articles {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+    align-items: center;
+  }
+  #exp h2 {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 50px;
+  }
+  #exp h3 {
+    padding: 5%;
+  }
+  #exp article {
+    margin-bottom: 5%;
+    font-family: 'Clicker Script', cursive;
+    font-size: 30px;
+  }
+  tr, th, td {
+    margin-right: 20%;
+    padding: 1%;
+    border-radius: 3%;
+    font-family: 'Wire One', sans-serif;
+    background-color: yellow;
+  }
+  thead td {
+    text-align: center;
+    font-family: 'Clicker Script', cursive;
+    font-weight: bold;
+    background-color: none;
+  }
+  .row1 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    word-wrap: break-word;
+    width: 100%;
+  }
+  .row1>.col1 {
+    width: 45%;
+    height: 60vh;
+    border-radius: 3%;
+    background-color: lightpink;
+  }
+  .row1>.col3 {
+    width: 45%;
+    height: 60vh;
+  }
+  .row1>.col2 {
+    width: 1%;
+    height: 60vh;
+    background-color: red;
+  }
+  .cir {
+    position: relative;
+    z-index: 0;
+    left: -7px;
+    color: black;
+  }
+  .row2 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    word-wrap: break-word;
+    width: 100%;
+  }
+  .row2>.col1 {
+    width: 45%;
+    height: 60vh;
+    text-align: right;
+  }
+  .row2>.col3 {
+    width: 45%;
+    height: 60vh;
+    border-radius: 3%;
+    background-color: lightpink;
+  }
+  .row2>.col2 {
+    width: 1%;
+    height: 60vh;
+    background-color: red;
+  }
+  #edu {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: palegoldenrod;
+  }
+  #edu h2 {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 50px;
+  }
+  #edu h3 {
+    margin-left: 5%;
+  }
+  #edu article {
+    font-family: 'Clicker Script', cursive;
+    font-size: 30px;
+    margin-bottom: 5%;
+  }
+  #edu .row1>.col1 {
+    width: 45%;
+    height: 30vh;
+    border-radius: 3%;
+    background-color: lightyellow;
+  }
+  #edu .row1>.col3 {
+    width: 45%;
+    height: 30vh;
+  }
+  #edu .row1>.col2 {
+    width: 1%;
+    height: 30vh;
+    background-color: red;
+  }
+  #edu .row2>.col1 {
+    width: 45%;
+    height: 30vh;
+    text-align: right;
+  }
+  #edu .row2>.col3 {
+    width: 45%;
+    height: 30vh;
+    border-radius: 3%;
+    background-color: lightyellow;
+  }
+  #edu .row2>.col2 {
+    width: 1%;
+    height: 30vh;
+    background-color: red;
+  }
+  #social {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: skyblue;
+  }
+  #social h2 {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 50px;
+  }
+  #social article {
+    font-family: 'Clicker Script', cursive;
+    font-size: 20px;
+    margin: 3%;
+  }
+  #social img {
+    width: 70px;
+    height: 70px;
+  }
+  footer {
+    background-color: blue;
+  }
+}
 
+/* Larger than phablet */
 
+@media (min-width: 550px) {
+  body {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+  }
+  header {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  svg {
+    width: 50px;
+    height: 50px;
+  }
+  svg:hover {
+    fill: black;
+  }
+  nav {
+    position: fixed;
+    overflow: hidden;
+    top: 0%;
+    z-index: 1;
+    width: 100%;
+    background-color: #fff;
+  }
+  nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  nav ul li {
+    display: inline-flex;
+    margin-right: 5px;
+  }
+  nav ul li h4 {
+    margin: 0.7em;
+  }
+  nav ul li h4 a {
+    text-decoration: none;
+    font-family: "Monofett", cursive;
+    font-size: 30px;
+    color: brown;
+  }
+  nav ul li h4 a:hover {
+    color: black;
+  }
+  main {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: space-around;
+    align-items: center;
+    margin-top: 20%;
+    width: 100%;
+    background-color: #fff;
+  }
+  #preface {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: lemonchiffon;
+  }
+  .who {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: 'Fredericka the Great', cursive;
+  }
+  .who h1 {
+    font-size: 40px;
+  }
+  #preface img {
+    width: 100px;
+    height: 100px;
+    margin: 5%;
+    border-radius: 10%;
+  }
+  #preface p {
+    width: 100%;
+    font-size: 40px;
+    font-family: 'Dawning of a New Day', cursive;
+  }
+  #certs {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: greenyellow;
+  }
+  #certs h2 {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 50px;
+  }
+  #certs li {
+    font-family: 'Clicker Script', cursive;
+    font-size: 40px;
+  }
+  #exp {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: cyan;
+  }
+  .articles {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: center;
+    align-items: center;
+  }
+  #exp h2 {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 50px;
+  }
+  #exp h3 {
+    padding: 5%;
+  }
+  #exp article {
+    margin-bottom: 5%;
+    font-family: 'Clicker Script', cursive;
+    font-size: 40px;
+  }
+  tr, th, td {
+    margin-right: 20%;
+    padding: 1%;
+    border-radius: 3%;
+    font-family: 'Wire One', sans-serif;
+    background-color: yellow;
+  }
+  thead td {
+    text-align: center;
+    font-family: 'Clicker Script', cursive;
+    font-weight: bold;
+    background-color: none;
+  }
+  .row1 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    word-wrap: break-word;
+    width: 100%;
+  }
+  .row1>.col1 {
+    width: 45%;
+    height: 80vh;
+    border-radius: 3%;
+    background-color: lightpink;
+  }
+  .row1>.col3 {
+    width: 45%;
+    height: 80vh;
+  }
+  .row1>.col2 {
+    width: 1%;
+    height: 80vh;
+    background-color: red;
+  }
+  .cir {
+    position: relative;
+    z-index: 0;
+    left: -4px;
+    color: black;
+  }
+  .row2 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    word-wrap: break-word;
+    width: 100%;
+  }
+  .row2>.col1 {
+    width: 45%;
+    height: 80vh;
+    text-align: right;
+  }
+  .row2>.col3 {
+    width: 45%;
+    height: 80vh;
+    border-radius: 3%;
+    background-color: lightpink;
+  }
+  .row2>.col2 {
+    width: 1%;
+    height: 80vh;
+    background-color: red;
+  }
+  #edu {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: palegoldenrod;
+  }
+  #edu h2 {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 50px;
+  }
+  #edu h3 {
+    margin-left: 5%;
+  }
+  #edu article {
+    font-family: 'Clicker Script', cursive;
+    font-size: 30px;
+    margin-bottom: 5%;
+  }
+  #edu .row1>.col1 {
+    width: 45%;
+    height: 35vh;
+    border-radius: 3%;
+    background-color: lightyellow;
+  }
+  #edu .row1>.col3 {
+    width: 45%;
+    height: 35vh;
+  }
+  #edu .row1>.col2 {
+    width: 1%;
+    height: 35vh;
+    background-color: red;
+  }
+  #edu .row2>.col1 {
+    width: 45%;
+    height: 35vh;
+    text-align: right;
+  }
+  #edu .row2>.col3 {
+    width: 45%;
+    height: 35vh;
+    border-radius: 3%;
+    background-color: lightyellow;
+  }
+  #edu .row2>.col2 {
+    width: 1%;
+    height: 35vh;
+    background-color: red;
+  }
+  #social {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: skyblue;
+  }
+  #social h2 {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 50px;
+  }
+  #social article {
+    font-family: 'Clicker Script', cursive;
+    font-size: 20px;
+    margin: 3%;
+  }
+  #social img {
+    width: 100px;
+    height: 100px;
+  }
+  footer {
+    background-color: blue;
+  }
+}
+
+/* Larger than tablet */
+
+@media (min-width: 750px) {
+  body {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+  }
+  header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+  }
+  svg {
+    width: 70px;
+    height: 70px;
+  }
+  svg:hover {
+    fill: black;
+  }
+  nav {
+    position: fixed;
+    overflow: hidden;
+    top: 0%;
+    z-index: 1;
+    width: 100%;
+    background-color: #fff;
+  }
+  nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 0;
+  }
+  nav ul li {
+    display: inline-flex;
+  }
+  nav ul li h4 a {
+    text-decoration: none;
+    font-family: "Monofett", cursive;
+    font-size: 40px;
+    color: brown;
+  }
   nav ul li h4 a:hover {
     color: #000;
   }
+  main {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: space-between;
+    align-items: center;
+    margin-top: 20%;
+    width: 100%;
+    background-color: #fff;
+  }
+  #preface {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: lemonchiffon;
+  }
+  .who {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    font-size: 40px;
+    font-family: 'Fredericka the Great', cursive;
+  }
+  #preface img {
+    margin: 5%;
+    border-radius: 10%;
+    width: 200px;
+    height: 200px;
+  }
+  #preface p {
+    width: 100%;
+    font-size: 60px;
+    font-family: 'Dawning of a New Day', cursive;
+  }
+  #certs {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: greenyellow;
+  }
+  #certs h2 {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 60px;
+  }
+  #certs li {
+    font-family: 'Clicker Script', cursive;
+    font-size: 50px;
+  }
+  #exp {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: cyan;
+  }
+  #exp h2 {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 50px;
+  }
+  #exp article {
+    margin-bottom: 5%;
+    font-family: 'Clicker Script', cursive;
+    font-size: 40px;
+  }
+  tr, th, td {
+    margin-right: 20%;
+    padding: 1%;
+    border-radius: 3%;
+    font-family: 'Wire One', sans-serif;
+    background-color: yellow;
+  }
+  thead td {
+    text-align: center;
+    font-family: 'Clicker Script', cursive;
+    font-weight: bold;
+    background-color: none;
+  }
+  .row1 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    word-wrap: break-word;
+    width: 80vw;
+  }
+  .row1>.col1 {
+    width: 45%;
+    height: 80vh;
+    border-radius: 3%;
+    background-color: lightpink;
+  }
+  .row1>.col3 {
+    width: 45%;
+    height: 80vh;
+  }
+  .row1>.col2 {
+    width: 1%;
+    height: 80vh;
+    background-color: red;
+  }
+  .cir {
+    position: relative;
+    z-index: 0;
+    left: -7px;
+    color: black;
+  }
+  .row2 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    word-wrap: break-word;
+    width: 80vw;
+  }
+  .row2>.col1 {
+    width: 45%;
+    height: 80vh;
+    text-align: right;
+  }
+  .row2>.col3 {
+    width: 45%;
+    height: 80vh;
+    border-radius: 3%;
+    background-color: lightpink;
+  }
+  .row2>.col2 {
+    width: 1%;
+    height: 80vh;
+    background-color: red;
+  }
+  #edu {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: palegoldenrod;
+  }
+  #edu h2 {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 50px;
+  }
+  #edu article {
+    font-family: 'Clicker Script', cursive;
+    font-size: 40px;
+    margin-bottom: 5%;
+  }
+  #edu .row1>.col1 {
+    width: 45%;
+    height: 50vh;
+    border-radius: 3%;
+    background-color: lightyellow;
+  }
+  #edu .row1>.col3 {
+    width: 45%;
+    height: 50vh;
+  }
+  #edu .row1>.col2 {
+    width: 1%;
+    height: 50vh;
+    background-color: red;
+  }
+  #edu .row2>.col1 {
+    width: 45%;
+    height: 50vh;
+    text-align: right;
+  }
+  #edu .row2>.col3 {
+    width: 45%;
+    height: 50vh;
+    border-radius: 3%;
+    background-color: lightyellow;
+  }
+  #edu .row2>.col2 {
+    width: 1%;
+    height: 50vh;
+    background-color: red;
+  }
+  #social {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: skyblue;
+  }
+  #social h2 {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 60px;
+  }
+  #social article {
+    font-family: 'Clicker Script', cursive;
+    font-size: 40px;
+    margin: 3%;
+  }
+  #social img {
+    width: 150px;
+    height: 150px;
+  }
+  footer {
+    background-color: blue;
+  }
+}
 
+/* Larger than desktop */
+
+@media (min-width: 1000px) {
+  body {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+  }
+  header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+  }
+  svg {
+    width: 70px;
+    height: 70px;
+  }
+  svg:hover {
+    fill: black;
+  }
+  nav {
+    position: fixed;
+    overflow: hidden;
+    top: 0%;
+    z-index: 1;
+    width: 100%;
+    background-color: #fff;
+  }
+  nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 0;
+  }
+  nav ul li {
+    display: inline-flex;
+  }
+  nav ul li h4 a {
+    text-decoration: none;
+    font-family: "Monofett", cursive;
+    font-size: 35px;
+    color: brown;
+  }
+  nav ul li h4 a:hover {
+    color: #000;
+  }
   main {
     display: flex;
     flex-flow: column nowrap;
@@ -1686,19 +1202,284 @@ footer {
     align-items: center;
     margin-top: 8%;
     width: 100%;
-    background-color:#fff;
+    background-color: #fff;
   }
-
   #preface {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     height: 100%;
-    width: 100%; 
-    background-color:lemonchiffon;
+    width: 100%;
+    background-color: lemonchiffon;
   }
+  .who {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    font-family: 'Fredericka the Great', cursive;
+  }
+  .who h1 {
+    font-size: 30px;
+  }
+  .pitch {
+    width: 60%;
+  }
+  #preface img {
+    margin: 5%;
+    border-radius: 10%;
+    width: 100px;
+    height: 100px;
+  }
+  #preface p {
+    width: 100%;
+    font-size: 40px;
+    font-family: 'Dawning of a New Day', cursive;
+  }
+  #certs {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: greenyellow;
+  }
+  #certs h2 {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 50px;
+  }
+  #certs li {
+    font-family: 'Clicker Script', cursive;
+    font-size: 40px;
+  }
+  #exp {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: cyan;
+  }
+  #exp h2 {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 50px;
+  }
+  #exp article {
+    margin-bottom: 5%;
+    font-family: 'Clicker Script', cursive;
+    font-size: 40px;
+  }
+  tr, th, td {
+    margin-right: 20%;
+    padding: 1%;
+    border-radius: 3%;
+    font-family: 'Wire One', sans-serif;
+    background-color: yellow;
+  }
+  thead td {
+    text-align: center;
+    font-family: 'Clicker Script', cursive;
+    font-weight: bold;
+    background-color: none;
+  }
+  .row1 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    word-wrap: break-word;
+    width: 60vw;
+  }
+  .row1>.col1 {
+    width: 45%;
+    height: 80vh;
+    border-radius: 3%;
+    background-color: lightpink;
+  }
+  .row1>.col3 {
+    width: 45%;
+    height: 80vh;
+  }
+  .row1>.col2 {
+    width: 1%;
+    height: 80vh;
+    background-color: red;
+  }
+  .cir {
+    position: relative;
+    z-index: 0;
+    left: -7px;
+    color: black;
+  }
+  .row2 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    word-wrap: break-word;
+    width: 60vw;
+  }
+  .row2>.col1 {
+    width: 45%;
+    height: 80vh;
+    text-align: right;
+  }
+  .row2>.col3 {
+    width: 45%;
+    height: 80vh;
+    border-radius: 3%;
+    background-color: lightpink;
+  }
+  .row2>.col2 {
+    width: 1%;
+    height: 80vh;
+    background-color: red;
+  }
+  #edu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: palegoldenrod;
+  }
+  #edu h2 {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 50px;
+  }
+  #edu article {
+    font-family: 'Clicker Script', cursive;
+    font-size: 40px;
+    margin-bottom: 5%;
+  }
+  #edu .row1>.col1 {
+    width: 45%;
+    height: 40vh;
+    border-radius: 3%;
+    background-color: lightyellow;
+  }
+  #edu .row1>.col3 {
+    width: 45%;
+    height: 40vh;
+  }
+  #edu .row1>.col2 {
+    width: 1%;
+    height: 40vh;
+    background-color: red;
+  }
+  #edu .row2>.col1 {
+    width: 45%;
+    height: 40vh;
+    text-align: right;
+  }
+  #edu .row2>.col3 {
+    width: 45%;
+    height: 40vh;
+    border-radius: 3%;
+    background-color: lightyellow;
+  }
+  #edu .row2>.col2 {
+    width: 1%;
+    height: 40vh;
+    background-color: red;
+  }
+  #social {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: skyblue;
+  }
+  #social h2 {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 50px;
+  }
+  #social article {
+    font-family: 'Clicker Script', cursive;
+    font-size: 40px;
+    margin: 3%;
+  }
+  #social img {
+    width: 150px;
+    height: 150px;
+  }
+  footer {
+    background-color: blue;
+  }
+}
 
+/* Larger than Desktop HD */
+
+@media (min-width: 1200px) {
+  body {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+  }
+  header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+  }
+  svg {
+    width: 70px;
+    height: 70px;
+  }
+  svg:hover {
+    fill: black;
+  }
+  nav {
+    position: fixed;
+    overflow: hidden;
+    top: 0%;
+    z-index: 1;
+    width: 100%;
+    background-color: #fff;
+  }
+  nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 0;
+  }
+  nav ul li {
+    display: inline-flex;
+  }
+  nav ul li h4 a {
+    text-decoration: none;
+    font-family: "Monofett", cursive;
+    font-size: 35px;
+    color: brown;
+  }
+  nav ul li h4 a:hover {
+    color: #000;
+  }
+  main {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: space-around;
+    align-items: center;
+    margin-top: 8%;
+    width: 100%;
+    background-color: #fff;
+  }
+  #preface {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: lemonchiffon;
+  }
   .who {
     display: flex;
     flex-flow: row nowrap;
@@ -1708,86 +1489,71 @@ footer {
     width: 50%;
     font-family: 'Fredericka the Great', cursive;
   }
-
   .who h1 {
     font-size: 40px;
   }
-
   .pitch {
     width: 50%;
   }
-
   #preface img {
     margin: 5%;
     border-radius: 10%;
-    width:100px;
+    width: 100px;
     height: 100px;
   }
-
   #preface p {
-    width:100%;
+    width: 100%;
     font-size: 40px;
     font-family: 'Dawning of a New Day', cursive;
   }
-
   #certs {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
     align-items: center;
     height: 100%;
-    width: 100%; 
+    width: 100%;
     background-color: greenyellow;
   }
-
-
   #certs h2 {
     font-family: 'Grand Hotel', cursive;
     font-size: 50px;
   }
-
-  #certs li{
+  #certs li {
     font-family: 'Clicker Script', cursive;
     font-size: 40px;
   }
-
   #exp {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
     align-items: center;
     height: 100%;
-    width: 100%; 
+    width: 100%;
     background-color: cyan;
   }
-
-
   #exp h2 {
     font-family: 'Grand Hotel', cursive;
     font-size: 50px;
   }
-
-  #exp article{
+  #exp article {
     margin-bottom: 5%;
     font-family: 'Clicker Script', cursive;
     font-size: 40px;
   }
-
-  tr, th , td {
+  tr, th, td {
     margin-right: 20%;
     padding: 1%;
     border-radius: 3%;
     font-family: 'Wire One', sans-serif;
     background-color: yellow;
   }
-
   thead td {
-    text-align:center;
+    text-align: center;
     font-family: 'Clicker Script', cursive;
     font-weight: bold;
     background-color: none;
   }
-
   .row1 {
     display: flex;
     flex-flow: row nowrap;
@@ -1796,32 +1562,27 @@ footer {
     word-wrap: break-word;
     width: 80vw;
   }
-
-  .row1 > .col1 {
-    width:45%;
+  .row1>.col1 {
+    width: 45%;
     height: 60vh;
     border-radius: 3%;
     background-color: lightpink;
   }
-
-  .row1 > .col3 {
-    width:45%;
+  .row1>.col3 {
+    width: 45%;
     height: 60vh;
   }
-
-  .row1 > .col2 {
+  .row1>.col2 {
     width: 1%;
     height: 60vh;
     background-color: red;
   }
-
   .cir {
     position: relative;
-    z-index:0;
+    z-index: 0;
     left: -7px;
     color: black;
   }
-
   .row2 {
     display: flex;
     flex-flow: row nowrap;
@@ -1830,110 +1591,93 @@ footer {
     word-wrap: break-word;
     width: 80vw;
   }
-
-  .row2 > .col1 {
-    width:45%;
+  .row2>.col1 {
+    width: 45%;
     height: 60vh;
     text-align: right;
   }
-
-  .row2 > .col3 {
-    width:45%;
+  .row2>.col3 {
+    width: 45%;
     height: 60vh;
     border-radius: 3%;
     background-color: lightpink;
   }
-
-  .row2 > .col2 {
+  .row2>.col2 {
     width: 1%;
     height: 60vh;
     background-color: red;
   }
-
   #edu {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
     align-items: center;
     height: 100%;
-    width: 100%; 
+    width: 100%;
     background-color: palegoldenrod;
   }
-
   #edu h2 {
     font-family: 'Grand Hotel', cursive;
     font-size: 50px;
   }
-
-  #edu article{
+  #edu article {
     font-family: 'Clicker Script', cursive;
     font-size: 40px;
     margin-bottom: 5%;
   }
-
-  #edu .row1 > .col1 {
-    width:45%;
+  #edu .row1>.col1 {
+    width: 45%;
     height: 30vh;
     border-radius: 3%;
     background-color: lightyellow;
   }
-
-  #edu .row1 > .col3 {
-    width:45%;
+  #edu .row1>.col3 {
+    width: 45%;
     height: 30vh;
   }
-
-  #edu .row1 > .col2 {
+  #edu .row1>.col2 {
     width: 1%;
     height: 30vh;
     background-color: red;
   }
-
-  #edu .row2 > .col1 {
-    width:45%;
+  #edu .row2>.col1 {
+    width: 45%;
     height: 30vh;
     text-align: right;
   }
-
-  #edu .row2 > .col3 {
-    width:45%;
+  #edu .row2>.col3 {
+    width: 45%;
     height: 30vh;
     border-radius: 3%;
     background-color: lightyellow;
   }
-
-  #edu .row2 > .col2 {
+  #edu .row2>.col2 {
     width: 1%;
     height: 30vh;
     background-color: red;
   }
-
   #social {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
     align-items: center;
     height: 100%;
-    width: 100%; 
+    width: 100%;
     background-color: skyblue;
   }
-
   #social h2 {
     font-family: 'Grand Hotel', cursive;
     font-size: 50px;
   }
-
-  #social article{
+  #social article {
     font-family: 'Clicker Script', cursive;
     font-size: 30px;
     margin: 3%;
   }
-
   #social img {
     width: 150px;
     height: 150px;
   }
-
   footer {
     background-color: blue;
   }
