@@ -412,14 +412,14 @@ thead td {
 .row1>.col1 {
   overflow: scroll;
   width: 300px;
-  height: 25vh;
+  height: 175px;
   border-radius: 3%;
   background-color: lightgreen
 }
 
 .row1>.col2, .row2>.col2 {
   width: 1%;
-  height: 25vh;
+  height: 175px;
   background-color: red;
 }
 
@@ -452,19 +452,19 @@ thead td {
 
 .row1>.col3 {
   width: 300px;
-  height: 25vh;
+  height: 175px;
 }
 
 .row2>.col1 {
   width: 300px;
-  height: 25vh;
+  height: 175px;
   text-align: right;
 }
 
 .row2>.col3 {
   overflow: scroll;
   width: 300px;
-  height: 25vh;
+  height: 175px;
   border-radius: 3%;
   background-color: lightgreen;
 }
@@ -473,25 +473,25 @@ thead td {
   overflow: visible;
   margin-right: 2%;
   width: 300px;
-  height: 25vh;
+  height: 175px;
   border-radius: 3%;
   background-color: lightyellow;
 }
 
 #edu .row1>.col2, #edu .row2>.col2 {
-  height: 25vh;
+  height: 175px;
 }
 
 #edu .row1>.col3 {
   margin-left: 2%;
   width: 300px;
-  height: 25vh;
+  height: 175px;
 }
 
 #edu .row2>.col1 {
   margin-right: 2%;
   width: 300px;
-  height: 25vh;
+  height: 175px;
   text-align: right;
 }
 
@@ -499,7 +499,7 @@ thead td {
   overflow: visible;
   margin-left: 2%;
   width: 300px;
-  height: 25vh;
+  height: 175px;
   border-radius: 3%;
   background-color: lightyellow;
 }
