@@ -189,7 +189,7 @@ article {
   -ms-flex-order: 1;
   order: 1;
   width: 100px;
-  height: 100px;
+  height: 175px;
   border-radius: 5%;
   margin-right: 1%;
   position: relative;
@@ -405,13 +405,13 @@ thead td {
   -ms-flex-align: center;
   align-items: center;
   word-wrap: break-word;
-  width: 75%;
+  width: 50%;
   font-size: 1.2rem;
 }
 
 .row1>.col1 {
   overflow: scroll;
-  width: 45%;
+  width: 300px;
   height: 25vh;
   border-radius: 3%;
   background-color: lightgreen
@@ -451,19 +451,19 @@ thead td {
 }
 
 .row1>.col3 {
-  width: 45%;
+  width: 300px;
   height: 25vh;
 }
 
 .row2>.col1 {
-  width: 45%;
+  width: 300px;
   height: 25vh;
   text-align: right;
 }
 
 .row2>.col3 {
   overflow: scroll;
-  width: 45%;
+  width: 300px;
   height: 25vh;
   border-radius: 3%;
   background-color: lightgreen;
@@ -472,7 +472,7 @@ thead td {
 #edu .row1 .col1 {
   overflow: visible;
   margin-right: 2%;
-  width: 40vw;
+  width: 300px;
   height: 25vh;
   border-radius: 3%;
   background-color: lightyellow;
@@ -484,13 +484,13 @@ thead td {
 
 #edu .row1>.col3 {
   margin-left: 2%;
-  width: 40vw;
+  width: 300px;
   height: 25vh;
 }
 
 #edu .row2>.col1 {
   margin-right: 2%;
-  width: 40vw;
+  width: 300px;
   height: 25vh;
   text-align: right;
 }
@@ -498,7 +498,7 @@ thead td {
 #edu .row2>.col3 {
   overflow: visible;
   margin-left: 2%;
-  width: 40vw;
+  width: 300px;
   height: 25vh;
   border-radius: 3%;
   background-color: lightyellow;
@@ -686,7 +686,7 @@ footer {
     -ms-flex-order: 1;
     order: 1;
     width: 150px;
-    height: 150px;
+    height: 175px;
     border-radius: 5%;
     margin-right: 1%;
     position: relative;
@@ -879,19 +879,19 @@ footer {
     -ms-flex-align: center;
     align-items: center;
     word-wrap: break-word;
-    width: 75%;
+    width: 50%;
     font-size: 1.2rem;
   }
   .row1>.col1 {
     overflow: scroll;
-    width: 45%;
-    height: 20vh;
+    width: 300px;
+    height: 175px;
     border-radius: 3%;
     background-color: lightgreen
   }
   .row1>.col2, .row2>.col2 {
     width: 1%;
-    height: 20vh;
+    height: 175px;
     background-color: red;
   }
   .sqr-fil {
@@ -919,48 +919,48 @@ footer {
     color: black;
   }
   .row1>.col3 {
-    width: 45%;
-    height: 20vh;
+    width: 300px;
+    height: 175px;
   }
   .row2>.col1 {
-    width: 45%;
-    height: 20vh;
+    width: 300px;
+    height: 175px;
     text-align: right;
   }
   .row2>.col3 {
     overflow: scroll;
-    width: 45%;
-    height: 20vh;
+    width: 300px;
+    height: 175px;
     border-radius: 3%;
     background-color: lightgreen;
   }
   #edu .row1 .col1 {
     overflow: visible;
     margin-right: 2%;
-    width: 40vw;
-    height: 20vh;
+    width: 300px;
+    height: 175px;
     border-radius: 3%;
     background-color: lightyellow;
   }
   #edu .row1>.col2, #edu .row2>.col2 {
-    height: 20vh;
+    height: 175px;
   }
   #edu .row1>.col3 {
     margin-left: 2%;
-    width: 40vw;
-    height: 20vh;
+    width: 300px;
+    height: 175px;
   }
   #edu .row2>.col1 {
     margin-right: 2%;
-    width: 40vw;
-    height: 20vh;
+    width: 300px;
+    height: 175px;
     text-align: right;
   }
   #edu .row2>.col3 {
     overflow: visible;
     margin-left: 2%;
-    width: 40vw;
-    height: 20vh;
+    width: 300px;
+    height: 175px;
     border-radius: 3%;
     background-color: lightyellow;
   }
@@ -1324,12 +1324,12 @@ footer {
     -ms-flex-align: center;
     align-items: center;
     word-wrap: break-word;
-    width: 75%;
+    width: 50%;
     font-size: 1.5rem;
   }
   .row1>.col1 {
     overflow: scroll;
-    width: 45%;
+    width: 300px;
     height: 12vh;
     border-radius: 3%;
     background-color: lightgreen
@@ -1364,17 +1364,17 @@ footer {
     color: black;
   }
   .row1>.col3 {
-    width: 45%;
+    width: 300px;
     height: 12vh;
   }
   .row2>.col1 {
-    width: 45%;
+    width: 300px;
     height: 12vh;
     text-align: right;
   }
   .row2>.col3 {
     overflow: scroll;
-    width: 45%;
+    width: 300px;
     height: 12vh;
     border-radius: 3%;
     background-color: lightgreen;
@@ -1382,7 +1382,7 @@ footer {
   #edu .row1 .col1 {
     overflow: visible;
     margin-right: 2%;
-    width: 40vw;
+    width: 300px;
     height: 12vh;
     border-radius: 3%;
     background-color: lightyellow;
@@ -1392,26 +1392,26 @@ footer {
   }
   #edu .row1>.col3 {
     margin-left: 2%;
-    width: 40vw;
+    width: 300px;
     height: 12vh;
   }
   #edu .row2>.col1 {
     margin-right: 2%;
-    width: 40vw;
+    width: 300px;
     height: 12vh;
     text-align: right;
   }
   #edu .row2>.col3 {
     overflow: visible;
     margin-left: 2%;
-    width: 40vw;
+    width: 300px;
     height: 12vh;
     border-radius: 3%;
     background-color: lightyellow;
   }
   #social img {
     width: 100px;
-    height: 100px;
+    height: 175px;
   }
   footer {
     position: fixed;
@@ -1769,12 +1769,12 @@ footer {
     -ms-flex-align: center;
     align-items: center;
     word-wrap: break-word;
-    width: 75%;
+    width: 50%;
     font-size: 2rem;
   }
   .row1>.col1 {
     overflow: scroll;
-    width: 45%;
+    width: 300px;
     height: 12vh;
     border-radius: 3%;
     background-color: lightgreen
@@ -1809,17 +1809,17 @@ footer {
     color: black;
   }
   .row1>.col3 {
-    width: 45%;
+    width: 300px;
     height: 12vh;
   }
   .row2>.col1 {
-    width: 45%;
+    width: 300px;
     height: 12vh;
     text-align: right;
   }
   .row2>.col3 {
     overflow: scroll;
-    width: 45%;
+    width: 300px;
     height: 12vh;
     border-radius: 3%;
     background-color: lightgreen;
@@ -1827,7 +1827,7 @@ footer {
   #edu .row1 .col1 {
     overflow: visible;
     margin-right: 2%;
-    width: 40vw;
+    width: 300px;
     height: 12vh;
     border-radius: 3%;
     background-color: lightyellow;
@@ -1837,19 +1837,19 @@ footer {
   }
   #edu .row1>.col3 {
     margin-left: 2%;
-    width: 40vw;
+    width: 300px;
     height: 12vh;
   }
   #edu .row2>.col1 {
     margin-right: 2%;
-    width: 40vw;
+    width: 300px;
     height: 12vh;
     text-align: right;
   }
   #edu .row2>.col3 {
     overflow: visible;
     margin-left: 2%;
-    width: 40vw;
+    width: 300px;
     height: 12vh;
     border-radius: 3%;
     background-color: lightyellow;
@@ -2214,19 +2214,19 @@ footer {
     -ms-flex-align: center;
     align-items: center;
     word-wrap: break-word;
-    width: 75%;
+    width: 50%;
     font-size: 2rem;
   }
   .row1>.col1 {
     overflow: scroll;
-    width: 45%;
-    height: 20vh;
+    width: 300px;
+    height: 175px;
     border-radius: 3%;
     background-color: lightgreen
   }
   .row1>.col2, .row2>.col2 {
     width: 1%;
-    height: 20vh;
+    height: 175px;
     background-color: red;
   }
   .sqr-fil {
@@ -2254,54 +2254,54 @@ footer {
     color: black;
   }
   .row1>.col3 {
-    width: 45%;
-    height: 20vh;
+    width: 300px;
+    height: 175px;
   }
   .row2>.col1 {
-    width: 45%;
-    height: 20vh;
+    width: 300px;
+    height: 175px;
     text-align: right;
   }
   .row2>.col3 {
     overflow: scroll;
-    width: 45%;
-    height: 20vh;
+    width: 300px;
+    height: 175px;
     border-radius: 3%;
     background-color: lightgreen;
   }
   #edu .row1 .col1 {
     overflow: visible;
     margin-right: 2%;
-    width: 40vw;
-    height: 20vh;
+    width: 300px;
+    height: 175px;
     border-radius: 3%;
     background-color: lightyellow;
   }
   #edu .row1>.col2, #edu .row2>.col2 {
-    height: 20vh;
+    height: 175px;
   }
   #edu .row1>.col3 {
     margin-left: 2%;
-    width: 40vw;
-    height: 20vh;
+    width: 300px;
+    height: 175px;
   }
   #edu .row2>.col1 {
     margin-right: 2%;
-    width: 40vw;
-    height: 20vh;
+    width: 300px;
+    height: 175px;
     text-align: right;
   }
   #edu .row2>.col3 {
     overflow: visible;
     margin-left: 2%;
-    width: 40vw;
-    height: 20vh;
+    width: 300px;
+    height: 175px;
     border-radius: 3%;
     background-color: lightyellow;
   }
   #social img {
     width: 150px;
-    height: 150px;
+    height: 175px;
   }
   footer {
     position: fixed;
