@@ -92,7 +92,7 @@ var expObserver = new IntersectionObserver(
         document.getElementById("exp").style.animation =
           "fade-in 3s ease-in-out 0s 1 alternate none";
         document.getElementById("exp").style.opacity = 1;
-      } else if (entries[0]["intersectionRatio"] > 0.25) {
+      } else if (entries[0]["intersectionRatio"] > 0.2) {
         // console.log("intersect 60%");
         document.getElementById("exp").style.animation =
           "fade-in 3s ease-in-out 0s 1 alternate none";
@@ -110,7 +110,7 @@ var expObserver = new IntersectionObserver(
       document.getElementById("exp").style.opacity = 0.3;
     }
   },
-  { threshold: [0, 0.25, 1] }
+  { threshold: [0, 0.2, 1] }
 );
 
 var eduObserver = new IntersectionObserver(
