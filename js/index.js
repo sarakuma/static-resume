@@ -5,7 +5,7 @@ let txt = `I am a project delivery manager at
     mainframe background to cloud & data related
     technologies. i have hand crafted and built this
     page from scratch to give an
-    elevator pitch about my profile`;
+    elevator pitch about my profile.....`;
 
 document.getElementById("typing-child").innerHTML = " ";
 document.getElementsByTagName("header").display = "none";
@@ -36,7 +36,7 @@ let typingEffect = (txt) => {
           mainframe background to <ins>cloud & data</ins> related
           technologies. i have <strong>hand crafted</strong> and built this
           page from scratch to give an
-          <strong>elevator pitch</strong> about <u>my profile</u>`;
+          <strong>elevator pitch</strong> about <u>my profile.</u>`;
       document.getElementById("navbar").style.display = "block";
       document.getElementById("certs").style.display = "flex";
       document.getElementById("exp").style.display = "flex";
