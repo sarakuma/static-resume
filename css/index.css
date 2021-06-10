@@ -455,13 +455,13 @@ thead td {
 .row1>.col3 {
   width: 100px;
   height: 200px;
-  margin: 20px;
+  padding-left: 5px;
 }
 
 .row2>.col1 {
   width: 100px;
   height: 200px;
-  margin: 20px;
+  padding-right: 5px;
   text-align: right;
 }
 
@@ -474,7 +474,6 @@ thead td {
 }
 
 #edu .row1 .col1 {
-  margin-right: 2%;
   width: 100px;
   height: 200px;
   border-radius: 3%;
@@ -488,18 +487,17 @@ thead td {
 #edu .row1>.col3 {
   width: 100px;
   height: 200px;
-  margin: 20px;
+  padding-left: 5px;
 }
 
 #edu .row2>.col1 {
-  margin-right: 2%;
+  padding-right: 5px;
   width: 100px;
   height: 200px;
   text-align: right;
 }
 
 #edu .row2>.col3 {
-  margin: 20px;
   width: 100px;
   height: 200px;
   border-radius: 3%;
@@ -925,12 +923,12 @@ footer {
   .row1>.col3 {
     width: 150px;
     height: 150px;
-    margin: 20px;
+    padding-left: 5px;
   }
   .row2>.col1 {
     width: 150px;
     height: 150px;
-    margin: 20px;
+    padding-right: 5px;
     text-align: right;
   }
   .row2>.col3 {
@@ -941,7 +939,6 @@ footer {
     background-color: lightgreen;
   }
   #edu .row1 .col1 {
-    margin: 20px;
     width: 150px;
     height: 150px;
     border-radius: 3%;
@@ -951,18 +948,17 @@ footer {
     height: 150px;
   }
   #edu .row1>.col3 {
-    margin-left: 2%;
+    padding-left: 5px;
     width: 150px;
     height: 150px;
   }
   #edu .row2>.col1 {
-    margin-right: 2%;
+    padding-right: 5px;
     width: 150px;
     height: 150px;
     text-align: right;
   }
   #edu .row2>.col3 {
-    margin: 20px;
     width: 150px;
     height: 150px;
     border-radius: 3%;
@@ -1372,12 +1368,12 @@ footer {
   .row1>.col3 {
     width: 300px;
     height: 200px;
-    margin: 20px;
+    padding-left: 5px;
   }
   .row2>.col1 {
     width: 300px;
     height: 200px;
-    margin: 20px;
+    padding-right: 5px;
     text-align: right;
   }
   .row2>.col3 {
@@ -1388,7 +1384,6 @@ footer {
     background-color: lightgreen;
   }
   #edu .row1 .col1 {
-    margin-right: 2%;
     width: 300px;
     height: 200px;
     border-radius: 3%;
@@ -1398,18 +1393,17 @@ footer {
     height: 200px;
   }
   #edu .row1>.col3 {
-    margin: 20px;
+    padding-left: 5px;
     width: 300px;
     height: 200px;
   }
   #edu .row2>.col1 {
-    margin: 20px;
+    padding-right: 5px;
     width: 300px;
     height: 200px;
     text-align: right;
   }
   #edu .row2>.col3 {
-    margin-left: 2%;
     width: 300px;
     height: 200px;
     border-radius: 3%;
@@ -1819,12 +1813,12 @@ footer {
   .row1>.col3 {
     width: 300px;
     height: 200px;
-    margin: 20px;
+    padding-left: 5px;
   }
   .row2>.col1 {
     width: 300px;
     height: 200px;
-    margin: 20px;
+    padding-right: 5px;
     text-align: right;
   }
   .row2>.col3 {
@@ -1835,7 +1829,6 @@ footer {
     background-color: lightgreen;
   }
   #edu .row1 .col1 {
-    margin-right: 2%;
     width: 300px;
     height: 200px;
     border-radius: 3%;
@@ -1845,19 +1838,17 @@ footer {
     height: 200px;
   }
   #edu .row1>.col3 {
-    margin: 20px;
+    padding-left: 5px;
     width: 300px;
     height: 200px;
   }
   #edu .row2>.col1 {
-    margin-right: 2%;
     width: 300px;
     height: 200px;
-    margin: 20px;
+    padding-right: 5px;
     text-align: right;
   }
   #edu .row2>.col3 {
-    margin-left: 2%;
     width: 300px;
     height: 200px;
     border-radius: 3%;
@@ -2267,12 +2258,12 @@ footer {
   .row1>.col3 {
     width: 300px;
     height: 175px;
-    margin: 20px;
+    padding-left: 5px;
   }
   .row2>.col1 {
     width: 300px;
     height: 175px;
-    margin: 20px;
+    padding-right: 5px;
     text-align: right;
   }
   .row2>.col3 {
@@ -2283,7 +2274,6 @@ footer {
     background-color: lightgreen;
   }
   #edu .row1 .col1 {
-    margin-right: 2%;
     width: 300px;
     height: 175px;
     border-radius: 3%;
@@ -2293,18 +2283,17 @@ footer {
     height: 175px;
   }
   #edu .row1>.col3 {
-    margin: 20px;
+    padding-left: 5px;
     width: 300px;
     height: 175px;
   }
   #edu .row2>.col1 {
-    margin: 20px;
+    padding-right: 5px;
     width: 300px;
     height: 175px;
     text-align: right;
   }
   #edu .row2>.col3 {
-    margin-left: 2%;
     width: 300px;
     height: 175px;
     border-radius: 3%;
