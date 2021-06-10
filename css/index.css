@@ -407,7 +407,7 @@ thead td {
   -ms-flex-align: center;
   align-items: center;
   word-wrap: break-word;
-  width: 70%;
+  width: 50%;
   font-size: 1.2rem;
 }
 
@@ -455,11 +455,13 @@ thead td {
 .row1>.col3 {
   width: 100px;
   height: 200px;
+  margin: 20px;
 }
 
 .row2>.col1 {
   width: 100px;
   height: 200px;
+  margin: 20px;
   text-align: right;
 }
 
@@ -484,9 +486,9 @@ thead td {
 }
 
 #edu .row1>.col3 {
-  margin-left: 2%;
   width: 100px;
   height: 200px;
+  margin: 20px;
 }
 
 #edu .row2>.col1 {
@@ -497,7 +499,7 @@ thead td {
 }
 
 #edu .row2>.col3 {
-  margin-left: 2%;
+  margin: 20px;
   width: 100px;
   height: 200px;
   border-radius: 3%;
@@ -881,7 +883,7 @@ footer {
     -ms-flex-align: center;
     align-items: center;
     word-wrap: break-word;
-    width: 70%;
+    width: 50%;
     font-size: 1.2rem;
   }
   .row1>.col1 {
@@ -923,10 +925,12 @@ footer {
   .row1>.col3 {
     width: 150px;
     height: 150px;
+    margin: 20px;
   }
   .row2>.col1 {
     width: 150px;
     height: 150px;
+    margin: 20px;
     text-align: right;
   }
   .row2>.col3 {
@@ -937,7 +941,7 @@ footer {
     background-color: lightgreen;
   }
   #edu .row1 .col1 {
-    margin-right: 2%;
+    margin: 20px;
     width: 150px;
     height: 150px;
     border-radius: 3%;
@@ -958,7 +962,7 @@ footer {
     text-align: right;
   }
   #edu .row2>.col3 {
-    margin-left: 2%;
+    margin: 20px;
     width: 150px;
     height: 150px;
     border-radius: 3%;
@@ -1326,7 +1330,7 @@ footer {
     -ms-flex-align: center;
     align-items: center;
     word-wrap: break-word;
-    width: 70%;
+    width: 50%;
     font-size: 1.5rem;
   }
   .row1>.col1 {
@@ -1368,10 +1372,12 @@ footer {
   .row1>.col3 {
     width: 300px;
     height: 200px;
+    margin: 20px;
   }
   .row2>.col1 {
     width: 300px;
     height: 200px;
+    margin: 20px;
     text-align: right;
   }
   .row2>.col3 {
@@ -1392,12 +1398,12 @@ footer {
     height: 200px;
   }
   #edu .row1>.col3 {
-    margin-left: 2%;
+    margin: 20px;
     width: 300px;
     height: 200px;
   }
   #edu .row2>.col1 {
-    margin-right: 2%;
+    margin: 20px;
     width: 300px;
     height: 200px;
     text-align: right;
@@ -1771,7 +1777,7 @@ footer {
     -ms-flex-align: center;
     align-items: center;
     word-wrap: break-word;
-    width: 60%;
+    width: 50%;
     font-size: 2rem;
   }
   .row1>.col1 {
@@ -1813,10 +1819,12 @@ footer {
   .row1>.col3 {
     width: 300px;
     height: 200px;
+    margin: 20px;
   }
   .row2>.col1 {
     width: 300px;
     height: 200px;
+    margin: 20px;
     text-align: right;
   }
   .row2>.col3 {
@@ -1837,7 +1845,7 @@ footer {
     height: 200px;
   }
   #edu .row1>.col3 {
-    margin-left: 2%;
+    margin: 20px;
     width: 300px;
     height: 200px;
   }
@@ -1845,6 +1853,7 @@ footer {
     margin-right: 2%;
     width: 300px;
     height: 200px;
+    margin: 20px;
     text-align: right;
   }
   #edu .row2>.col3 {
@@ -2216,7 +2225,7 @@ footer {
     -ms-flex-align: center;
     align-items: center;
     word-wrap: break-word;
-    width: 60%;
+    width: 50%;
     font-size: 2rem;
   }
   .row1>.col1 {
@@ -2258,10 +2267,12 @@ footer {
   .row1>.col3 {
     width: 300px;
     height: 175px;
+    margin: 20px;
   }
   .row2>.col1 {
     width: 300px;
     height: 175px;
+    margin: 20px;
     text-align: right;
   }
   .row2>.col3 {
@@ -2282,12 +2293,12 @@ footer {
     height: 175px;
   }
   #edu .row1>.col3 {
-    margin-left: 2%;
+    margin: 20px;
     width: 300px;
     height: 175px;
   }
   #edu .row2>.col1 {
-    margin-right: 2%;
+    margin: 20px;
     width: 300px;
     height: 175px;
     text-align: right;
