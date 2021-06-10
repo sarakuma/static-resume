@@ -5,7 +5,7 @@
 * Browsers: last 4 version
 */
 
-/* Kumar Saraboji
+/* Kumar Saraboji */
 
 * {
   -webkit-box-sizing: border-box;
@@ -13,6 +13,7 @@
 }
 
 html, body {
+  scroll-behavior: smooth;
   width: 100%;
   height: 100%;
   margin: 0;
@@ -58,6 +59,7 @@ nav ul li {
 nav ul li h4 {
   padding: 0;
   margin: 0;
+  text-shadow: 2px 2px yellow;
   font-size: 1.3rem;
 }
 
@@ -405,13 +407,13 @@ thead td {
   -ms-flex-align: center;
   align-items: center;
   word-wrap: break-word;
-  width: 75%;
+  width: 80%;
   font-size: 1.2rem;
 }
 
 .row1>.col1 {
   overflow: scroll;
-  width: 400px;
+  width: 100px;
   height: 200px;
   border-radius: 3%;
   background-color: lightgreen
@@ -451,28 +453,27 @@ thead td {
 }
 
 .row1>.col3 {
-  width: 400px;
+  width: 100px;
   height: 200px;
 }
 
 .row2>.col1 {
-  width: 400px;
+  width: 100px;
   height: 200px;
   text-align: right;
 }
 
 .row2>.col3 {
   overflow: scroll;
-  width: 400px;
+  width: 100px;
   height: 200px;
   border-radius: 3%;
   background-color: lightgreen;
 }
 
 #edu .row1 .col1 {
-  overflow: visible;
   margin-right: 2%;
-  width: 400px;
+  width: 100px;
   height: 200px;
   border-radius: 3%;
   background-color: lightyellow;
@@ -484,21 +485,20 @@ thead td {
 
 #edu .row1>.col3 {
   margin-left: 2%;
-  width: 400px;
+  width: 100px;
   height: 200px;
 }
 
 #edu .row2>.col1 {
   margin-right: 2%;
-  width: 400px;
+  width: 100px;
   height: 200px;
   text-align: right;
 }
 
 #edu .row2>.col3 {
-  overflow: visible;
   margin-left: 2%;
-  width: 400px;
+  width: 100px;
   height: 200px;
   border-radius: 3%;
   background-color: lightyellow;
@@ -528,6 +528,7 @@ footer {
     box-sizing: border-box;
   }
   html, body {
+    scroll-behavior: smooth;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -569,6 +570,7 @@ footer {
   nav ul li h4 {
     padding: 0;
     margin: 0;
+    text-shadow: 2px 2px yellow;
     font-size: 1.5rem;
   }
   nav ul li h4 a {
@@ -879,19 +881,19 @@ footer {
     -ms-flex-align: center;
     align-items: center;
     word-wrap: break-word;
-    width: 70%;
+    width: 80%;
     font-size: 1.2rem;
   }
   .row1>.col1 {
     overflow: scroll;
-    width: 300px;
-    height: 175px;
+    width: 150px;
+    height: 150px;
     border-radius: 3%;
     background-color: lightgreen
   }
   .row1>.col2, .row2>.col2 {
     width: 1%;
-    height: 175px;
+    height: 150px;
     background-color: red;
   }
   .sqr-fil {
@@ -919,48 +921,46 @@ footer {
     color: black;
   }
   .row1>.col3 {
-    width: 300px;
-    height: 175px;
+    width: 150px;
+    height: 150px;
   }
   .row2>.col1 {
-    width: 300px;
-    height: 175px;
+    width: 150px;
+    height: 150px;
     text-align: right;
   }
   .row2>.col3 {
     overflow: scroll;
-    width: 300px;
-    height: 175px;
+    width: 150px;
+    height: 150px;
     border-radius: 3%;
     background-color: lightgreen;
   }
   #edu .row1 .col1 {
-    overflow: visible;
     margin-right: 2%;
-    width: 300px;
-    height: 175px;
+    width: 150px;
+    height: 150px;
     border-radius: 3%;
     background-color: lightyellow;
   }
   #edu .row1>.col2, #edu .row2>.col2 {
-    height: 175px;
+    height: 150px;
   }
   #edu .row1>.col3 {
     margin-left: 2%;
-    width: 300px;
-    height: 175px;
+    width: 150px;
+    height: 150px;
   }
   #edu .row2>.col1 {
     margin-right: 2%;
-    width: 300px;
-    height: 175px;
+    width: 150px;
+    height: 150px;
     text-align: right;
   }
   #edu .row2>.col3 {
-    overflow: visible;
     margin-left: 2%;
     width: 300px;
-    height: 175px;
+    height: 150px;
     border-radius: 3%;
     background-color: lightyellow;
   }
@@ -988,6 +988,7 @@ footer {
     box-sizing: border-box;
   }
   html, body {
+    scroll-behavior: smooth;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -1027,6 +1028,7 @@ footer {
   nav ul li h4 {
     padding: 0;
     margin: 0;
+    text-shadow: 2px 2px yellow;
     font-size: 2.1rem;
   }
   nav ul li h4 a {
@@ -1330,13 +1332,13 @@ footer {
   .row1>.col1 {
     overflow: scroll;
     width: 300px;
-    height: 12vh;
+    height: 200px;
     border-radius: 3%;
     background-color: lightgreen
   }
   .row1>.col2, .row2>.col2 {
     width: 1%;
-    height: 12vh;
+    height: 200px;
     background-color: red;
   }
   .sqr-fil {
@@ -1365,47 +1367,45 @@ footer {
   }
   .row1>.col3 {
     width: 300px;
-    height: 12vh;
+    height: 200px;
   }
   .row2>.col1 {
     width: 300px;
-    height: 12vh;
+    height: 200px;
     text-align: right;
   }
   .row2>.col3 {
     overflow: scroll;
     width: 300px;
-    height: 12vh;
+    height: 200px;
     border-radius: 3%;
     background-color: lightgreen;
   }
   #edu .row1 .col1 {
-    overflow: visible;
     margin-right: 2%;
     width: 300px;
-    height: 12vh;
+    height: 200px;
     border-radius: 3%;
     background-color: lightyellow;
   }
   #edu .row1>.col2, #edu .row2>.col2 {
-    height: 12vh;
+    height: 200px;
   }
   #edu .row1>.col3 {
     margin-left: 2%;
     width: 300px;
-    height: 12vh;
+    height: 200px;
   }
   #edu .row2>.col1 {
     margin-right: 2%;
     width: 300px;
-    height: 12vh;
+    height: 200px;
     text-align: right;
   }
   #edu .row2>.col3 {
-    overflow: visible;
     margin-left: 2%;
     width: 300px;
-    height: 12vh;
+    height: 200px;
     border-radius: 3%;
     background-color: lightyellow;
   }
@@ -1433,6 +1433,7 @@ footer {
     box-sizing: border-box;
   }
   html, body {
+    scroll-behavior: smooth;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -1472,6 +1473,7 @@ footer {
   nav ul li h4 {
     padding: 0;
     margin: 0;
+    text-shadow: 2px 2px yellow;
     font-size: 2.5rem;
   }
   nav ul li h4 a {
@@ -1769,19 +1771,19 @@ footer {
     -ms-flex-align: center;
     align-items: center;
     word-wrap: break-word;
-    width: 50%;
+    width: 60%;
     font-size: 2rem;
   }
   .row1>.col1 {
     overflow: scroll;
     width: 300px;
-    height: 12vh;
+    height: 200px;
     border-radius: 3%;
     background-color: lightgreen
   }
   .row1>.col2, .row2>.col2 {
     width: 1%;
-    height: 12vh;
+    height: 200px;
     background-color: red;
   }
   .sqr-fil {
@@ -1810,47 +1812,45 @@ footer {
   }
   .row1>.col3 {
     width: 300px;
-    height: 12vh;
+    height: 200px;
   }
   .row2>.col1 {
     width: 300px;
-    height: 12vh;
+    height: 200px;
     text-align: right;
   }
   .row2>.col3 {
     overflow: scroll;
     width: 300px;
-    height: 12vh;
+    height: 200px;
     border-radius: 3%;
     background-color: lightgreen;
   }
   #edu .row1 .col1 {
-    overflow: visible;
     margin-right: 2%;
     width: 300px;
-    height: 12vh;
+    height: 200px;
     border-radius: 3%;
     background-color: lightyellow;
   }
   #edu .row1>.col2, #edu .row2>.col2 {
-    height: 12vh;
+    height: 200px;
   }
   #edu .row1>.col3 {
     margin-left: 2%;
     width: 300px;
-    height: 12vh;
+    height: 200px;
   }
   #edu .row2>.col1 {
     margin-right: 2%;
     width: 300px;
-    height: 12vh;
+    height: 200px;
     text-align: right;
   }
   #edu .row2>.col3 {
-    overflow: visible;
     margin-left: 2%;
     width: 300px;
-    height: 12vh;
+    height: 200px;
     border-radius: 3%;
     background-color: lightyellow;
   }
@@ -1878,6 +1878,7 @@ footer {
     box-sizing: border-box;
   }
   html, body {
+    scroll-behavior: smooth;
     width: 100%;
     height: 100%;
     margin: 0;
@@ -1917,6 +1918,7 @@ footer {
   nav ul li h4 {
     padding: 0;
     margin: 0;
+    text-shadow: 2px 2px yellow;
     font-size: 3rem;
   }
   nav ul li h4 a {
@@ -2270,7 +2272,6 @@ footer {
     background-color: lightgreen;
   }
   #edu .row1 .col1 {
-    overflow: visible;
     margin-right: 2%;
     width: 300px;
     height: 175px;
@@ -2292,7 +2293,6 @@ footer {
     text-align: right;
   }
   #edu .row2>.col3 {
-    overflow: visible;
     margin-left: 2%;
     width: 300px;
     height: 175px;

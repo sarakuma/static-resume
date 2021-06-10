@@ -26,28 +26,28 @@ let typingEffect = (txt) => {
       typingEffect(txt);
     }, 50);
   } else {
-    document.getElementById(
-      "typing-child"
-    ).innerHTML = `I am a <strong>project delivery manager</strong> at
-        <strong>Cognizant</strong>. I am
-        <big>diligently working for </big> a <u>career change</u> from
-        mainframe background to <ins>cloud & data</ins> related
-        technologies. i have <strong>hand crafted</strong> and built this
-        <strong>page</strong> from scratch to give an
-        <strong>elevator pitch</strong> about <u>my profile</u>`;
-
     setTimeout(() => {
       window.scrollTo(0, 0);
+      document.getElementById(
+        "typing-child"
+      ).innerHTML = `I am a <strong>project delivery manager</strong> at
+          <strong>Cognizant</strong>. I am
+          <big>diligently working for </big> a <u>career change</u> from
+          mainframe background to <ins>cloud & data</ins> related
+          technologies. i have <strong>hand crafted</strong> and built this
+          page from scratch to give an
+          <strong>elevator pitch</strong> about <u>my profile</u>`;
       document.getElementById("navbar").style.display = "block";
       document.getElementById("certs").style.display = "flex";
       document.getElementById("exp").style.display = "flex";
       document.getElementById("edu").style.display = "flex";
       document.getElementById("social").style.display = "flex";
-    }, 1500);
+    }, 4000);
   }
 };
 
-typingEffect(txt);
+setTimeout(() => {typingEffect(txt);},4000);
+;
 
 // new object with screen as root element
 var certObserver = new IntersectionObserver(
