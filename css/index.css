@@ -420,6 +420,8 @@ thead td {
 }
 
 .row1>.col2, .row2>.col2 {
+  margin-left: 10px;
+  margin-right: 10px;
   width: 1%;
   height: 200px;
   background-color: red;
@@ -455,13 +457,12 @@ thead td {
 .row1>.col3 {
   width: 100px;
   height: 200px;
-  padding-left: 5px;
 }
 
 .row2>.col1 {
   width: 100px;
   height: 200px;
-  padding-right: 5px;
+
   text-align: right;
 }
 
@@ -481,17 +482,19 @@ thead td {
 }
 
 #edu .row1>.col2, #edu .row2>.col2 {
+  margin-left: 10px;
+  margin-right: 10px;
   height: 200px;
 }
 
 #edu .row1>.col3 {
   width: 100px;
   height: 200px;
-  padding-left: 5px;
+
 }
 
 #edu .row2>.col1 {
-  padding-right: 5px;
+
   width: 100px;
   height: 200px;
   text-align: right;
@@ -892,6 +895,8 @@ footer {
     background-color: lightgreen
   }
   .row1>.col2, .row2>.col2 {
+    margin-left: 10px;
+    margin-right: 10px;
     width: 1%;
     height: 150px;
     background-color: red;
@@ -923,12 +928,12 @@ footer {
   .row1>.col3 {
     width: 150px;
     height: 150px;
-    padding-left: 5px;
+  
   }
   .row2>.col1 {
     width: 150px;
     height: 150px;
-    padding-right: 5px;
+  
     text-align: right;
   }
   .row2>.col3 {
@@ -945,15 +950,17 @@ footer {
     background-color: lightyellow;
   }
   #edu .row1>.col2, #edu .row2>.col2 {
+    margin-left: 10px;
+    margin-right: 10px;
     height: 150px;
   }
   #edu .row1>.col3 {
-    padding-left: 5px;
+  
     width: 150px;
     height: 150px;
   }
   #edu .row2>.col1 {
-    padding-right: 5px;
+  
     width: 150px;
     height: 150px;
     text-align: right;
@@ -1337,6 +1344,8 @@ footer {
     background-color: lightgreen
   }
   .row1>.col2, .row2>.col2 {
+    margin-left: 10px;
+    margin-right: 10px;
     width: 1%;
     height: 200px;
     background-color: red;
@@ -1368,12 +1377,12 @@ footer {
   .row1>.col3 {
     width: 300px;
     height: 200px;
-    padding-left: 5px;
+  
   }
   .row2>.col1 {
     width: 300px;
     height: 200px;
-    padding-right: 5px;
+  
     text-align: right;
   }
   .row2>.col3 {
@@ -1390,15 +1399,17 @@ footer {
     background-color: lightyellow;
   }
   #edu .row1>.col2, #edu .row2>.col2 {
+    margin-left: 10px;
+    margin-right: 10px;
     height: 200px;
   }
   #edu .row1>.col3 {
-    padding-left: 5px;
+  
     width: 300px;
     height: 200px;
   }
   #edu .row2>.col1 {
-    padding-right: 5px;
+  
     width: 300px;
     height: 200px;
     text-align: right;
@@ -1782,6 +1793,8 @@ footer {
     background-color: lightgreen
   }
   .row1>.col2, .row2>.col2 {
+    margin-left: 10px;
+    margin-right: 10px;
     width: 1%;
     height: 200px;
     background-color: red;
@@ -1813,12 +1826,12 @@ footer {
   .row1>.col3 {
     width: 300px;
     height: 200px;
-    padding-left: 5px;
+  
   }
   .row2>.col1 {
     width: 300px;
     height: 200px;
-    padding-right: 5px;
+  
     text-align: right;
   }
   .row2>.col3 {
@@ -1835,17 +1848,19 @@ footer {
     background-color: lightyellow;
   }
   #edu .row1>.col2, #edu .row2>.col2 {
+    margin-left: 10px;
+    margin-right: 10px;
     height: 200px;
   }
   #edu .row1>.col3 {
-    padding-left: 5px;
+  
     width: 300px;
     height: 200px;
   }
   #edu .row2>.col1 {
     width: 300px;
     height: 200px;
-    padding-right: 5px;
+  
     text-align: right;
   }
   #edu .row2>.col3 {
@@ -2227,6 +2242,8 @@ footer {
     background-color: lightgreen
   }
   .row1>.col2, .row2>.col2 {
+    margin-left: 10px;
+    margin-right: 10px;
     width: 1%;
     height: 175px;
     background-color: red;
@@ -2258,12 +2275,12 @@ footer {
   .row1>.col3 {
     width: 300px;
     height: 175px;
-    padding-left: 5px;
+  
   }
   .row2>.col1 {
     width: 300px;
     height: 175px;
-    padding-right: 5px;
+  
     text-align: right;
   }
   .row2>.col3 {
@@ -2280,15 +2297,17 @@ footer {
     background-color: lightyellow;
   }
   #edu .row1>.col2, #edu .row2>.col2 {
+    margin-left: 10px;
+    margin-right: 10px;
     height: 175px;
   }
   #edu .row1>.col3 {
-    padding-left: 5px;
+  
     width: 300px;
     height: 175px;
   }
   #edu .row2>.col1 {
-    padding-right: 5px;
+  
     width: 300px;
     height: 175px;
     text-align: right;
